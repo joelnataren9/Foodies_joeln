@@ -1,0 +1,281 @@
+@import 'NavBar.scss';
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ContactUs {
+    width: 100%;
+    background-color: black;
+    padding-top: 112px;
+}
+
+.contact_title {
+    font-family: $f-title;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 17px;
+}
+
+.contact_description {
+    font-family: $text;
+    font-size: 24px;
+    font-weight: normal;
+    max-width: 698px;
+    margin-bottom: 40px;
+}
+
+.form_container {
+    margin-left: 150px;
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+.name-mail {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.name {
+    font-size: 12px;
+    font-family: $text;
+    font-weight: normal;
+    color: #FFC700;
+    display: inline-block;
+    width: 105px;
+    max-width: 105px;
+    margin-bottom: 5px;
+}
+
+.f-na {
+    font-size: 16px;
+    font-family: $text;
+    font-weight: normal;
+    color: #FFC700;
+    padding: 20px 14px;
+    max-width: 300px;
+    height: 50px;
+    background-color: transparent;
+    border: 1px solid #FFC700;
+    border-radius: 5px;
+    outline: none;
+    margin-bottom: 10px;
+    width: 300px;
+    max-width: 300px;
+}
+
+.f-na::placeholder {
+    color: #FFC700;
+}
+
+.mail {
+    font-size: 12px;
+    font-family: $text;
+    font-weight: normal;
+    color: #ffffff;
+    display: inline-block;
+    width: 105px;
+    max-width: 105px;
+    margin-bottom: 5px;
+}
+
+.f-mail {
+    font-size: 16px;
+    font-family: $text;
+    font-weight: normal;
+    color: white;
+    padding: 20px 14px;
+    max-width: 300px;
+    height: 50px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+    outline: none;
+    margin-bottom: 10px;
+    width: 300px;
+    max-width: 300px;
+}
+
+.message-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.message {
+    font-size: 12px;
+    font-family: $text;
+    font-weight: normal;
+    color: #ffffff;
+    display: inline-block;
+    width: 105px;
+    max-width: 105px;
+    margin-bottom: 5px;
+}
+
+.f-message {
+    font-size: 16px;
+    font-family: $text;
+    font-weight: normal;
+    color: white;
+    padding: 5px;
+    max-width: 300px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+    outline: none;
+    margin-bottom: 23px;
+    width: 594px;
+    max-width: 594px;
+    height: 132px;
+    max-height: 132px;
+}
+
+.send {
+    background-color: #FFD600;
+    color: black;
+    font-size: 16px;
+    font-family: $text;
+    font-weight: bold;
+    padding: 14px 20;
+    width: 196px;
+    height: 50px;
+    margin-left: 45%;
+    margin-bottom: 126px;
+}
+
+.app {
+    height: 900px;
+    position: relative;
+    display: grid;
+    grid-template: 1000px 200px /40% 60%;
+    width: 100vw;
+    flex-wrap: wrap;
+}
+
+.tele {
+    position: relative;
+    max-width: 100%;
+    height: 1100px;
+}
+
+.phone {
+    object-fit: cover;
+    // width: 100%;
+    height: 1031px;
+    overflow:hidden;
+    position: absolute;
+    // left: -50px;
+    z-index: 3;
+    top: -50px;
+    left: -5rem;
+    // width: 80%;
+}
+
+.phone-container {
+    padding-top: 89px;
+    // max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    // padding-left: 50%;
+    // padding-right: 10%;
+    z-index: 2;
+}
+
+.phone-title {
+    font-family: $f-title;
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 35px;
+    width: 80%;
+    height: 70px;
+}
+
+.highlighted {
+    display: block;
+    background-color: #FFD600;
+    width: 85%;
+    transform: rotate(-0.64deg);
+    line-height: 35px;
+    font-size: 35px;
+}
+
+.unodos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 50px;
+    width: 600px;
+}
+
+.ellipse-container {
+    position: relative;
+    max-width: 46px;
+    max-height: 46px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+
+
+.p-number {
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    color: white;
+    font-size: 18px;
+}
+
+.solicita {
+    max-width: 50%;
+    position: relative;
+}
+
+.phone-subtitle {
+    font-family: "Roboto";
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.phone-text {
+    font-family: "Roboto";
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.left-a {
+    position: absolute;
+    top: 1rem;
+    left: 3.8rem;
+    z-index: -1;
+}
+
+.right-a {
+    position: absolute;
+    top: 2.5rem;
+    right: 1rem;
+    z-index: -1;
+}
+
+.facil {
+    padding-top: 25px;
+    max-width: 298px;
+    position: relative;
+    padding-left: 5rem;
+}
+
+.promos {
+    max-width: 600px;
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    text-align: center;
+}

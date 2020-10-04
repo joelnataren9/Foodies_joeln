@@ -1,0 +1,48 @@
+@import 'NavBar.scss';
+
+.figure_img-container {
+    max-width: 54%;
+    height: initial;
+    z-index: 2;
+}
+
+.figure_img {
+    width: 100%;
+    height: 100%;
+}
+
+.about_Us {
+    width: 46%;
+    position: relative;
+    overflow: hidden;
+}
+
+.rays {
+    width: 1051px;
+    height: 350px;
+    opacity: 0.8;
+    position: absolute;
+    top: 100px;
+    left: -280px;
+}
+
+.about_Us-container {
+    width: 100%;
+    padding: 110px 57px;
+}
+
+.about_Us-title {
+    font-family: $f-subtitle;
+    font-weight: bold;
+    font-size: $sub-title;
+    margin-bottom: 27px;
+}
+
+.about_Us-description {
+    font-family: $text;
+    font-size: $s-text;
+    font-weight: normal;
+    color: $text-opacity;
+    margin-bottom: 54px;
+}
+

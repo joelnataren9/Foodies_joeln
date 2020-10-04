@@ -1,0 +1,131 @@
+@import 'NavBar.scss';
+$white: rgba($color: #ffffff , $alpha: 0.9);
+$black: rgba($color: #000000 , $alpha: 0.9);
+
+.location {
+    width: 676px;
+}
+
+.t-l {
+    font-size: 40px;
+    margin-bottom: 32px;
+    line-height: 60px;
+}
+
+
+.toGo {
+    width: 377px;
+    height: 64px;
+    background-color: $white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #718096;
+}
+
+.toGo:hover {
+    background-color: #718096;
+}
+
+.toGo-delivery {
+    font-family: $f-subtitle;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+.delivery {
+    width: 299px;
+    height: 64px;
+    background-color: $white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border: 1px solid #718096;
+}
+
+.delivery:hover {
+    background-color: #718096;
+}
+
+.isActive {
+    background-color: $black;
+    color: white;
+}
+
+.i-search {
+    font-size: 2rem;
+}
+
+.search {
+    width: 676px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 205px 17px 105px;
+    border: 1px solid #718096;
+}
+
+.form-search {
+    width: 227px;
+    height: 25px;
+    border-style: none;
+    font-family: $text;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 2451px;
+    outline: none;
+}
+
+.badge-container {
+    width: 676px;
+    height: 350px;
+    padding-left: 102px;
+    padding-top: 15px;
+}
+
+.badge {
+    width: 552px;
+    height: 90px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding-left: 15px !important;
+}
+
+.badge:nth-of-type(1) {
+    background-color: #FFE999;
+    border-color: white;;
+}
+
+.loc-title {
+    font-family: $f-subtitle;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 24px;
+    margin-bottom: 5px;
+}
+
+.takeaway_description {
+    font-family: $text;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 25px;
+}
+
+.img_location-container {
+    max-width: 824px;
+    height: 609px;
+}
+
+.img_location {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}

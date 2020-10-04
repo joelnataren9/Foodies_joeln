@@ -1,0 +1,55 @@
+@import 'NavBar.scss';
+
+$mask_hero-width: initial;
+$mask_hero-height: 750px;
+
+.Hero {
+    margin: 0;
+    height: fit-content;
+    margin-bottom: 160px;
+}
+
+.mask_hero {
+    width: $mask_hero-width;
+    height: $mask_hero-height;
+    top: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+.hero_description {
+    z-index: 4;
+    flex-wrap: wrap;
+    padding-top: 217px;
+    padding-left: 102px;
+    width: 600px;
+}
+
+.city {
+    background-color:#FFC700;
+    line-height: 60px;
+}
+
+.title {
+    font-family: $f-title;
+    font-weight: 700;
+    font-size: 60px;
+    z-index: 3;
+    margin-bottom: 21px;
+}
+
+.descrip2 {
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: $s-text;
+    color: $text-opacity;
+    margin-bottom: 46px;
+}
+
+.descrip3 {
+    font-family: $f-subtitle;
+    font-size: 22px;
+    font-weight: bold;
+    display: inline-block;
+}
