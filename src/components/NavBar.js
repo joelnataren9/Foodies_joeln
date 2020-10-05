@@ -8,10 +8,10 @@ function NavBar (props) {
 
     const showMenu = () => {
         if(Menu === ' navbar-light bg-transparent') {
-            setMenu('active');
+            setMenu('activee');
             setDisplay(' ');
             return (Menu, display);
-        } else if (Menu === 'active') {
+        } else if (Menu === 'activee') {
             setMenu(' navbar-light bg-transparent');
             setDisplay(' display-none');
             return (Menu, display);
