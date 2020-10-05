@@ -1,0 +1,45 @@
+@import './NavBar.scss';
+
+.menu_hero {
+    width: 100%;
+    position: relative;
+    background-color: black;
+    // display: flex;
+    // justify-content: space-around;
+    // align-items: center;
+    height: 610px;
+}
+
+// .img-container {
+
+// }
+
+.vector {
+    position: absolute;
+    right: 0;
+}
+
+.burguer {
+    position: absolute;
+    z-index: 2;
+    right: 4rem;
+    top: 138px;
+}
+
+.hero-title {
+    font-family: $f-title;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 60px;
+    color: white;
+    width: 50%;
+    padding: 250px 50px 0 50px;
+    display: block;
+}
+
+.experiencia {
+    background-color: #FFD600;
+    color: black;
+    transform: rotate(-0.64deg);
+    display: block;
+}

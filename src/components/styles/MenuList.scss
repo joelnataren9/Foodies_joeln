@@ -1,0 +1,46 @@
+@import 'NavBar.scss';
+
+.menu-list {
+    padding-top: 60px;
+}
+
+.search-list-cont {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 90px;
+}
+
+.i-search {
+    font-size: 1rem;
+}
+
+.search {
+    max-width: 476px;
+    border: 1px solid #718096;
+}
+
+.form-search {
+    width: 227px;
+    height: 20px;
+    border-style: none;
+    font-family: $text;
+    font-weight: normal;
+    font-size: 18px;
+    outline: none;
+    color: $text-opacity;
+    padding: 0;
+}
+
+.search-list {
+    display: flex;
+    justify-content: start;
+}
+
+.todas {
+    font-family: $f-subtitle;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    background-color: transparent;
+    margin-right: 40px;
+}
