@@ -369,6 +369,12 @@
 }
 
 @media screen and (max-width: 600px) {
+    .send {
+        width: 30%;
+        height: 50px;
+        margin-left: 45%;
+        margin-bottom: 150px;
+    }
 
     .tele {
         position: relative;
@@ -378,11 +384,18 @@
 
     .phone {
         object-fit: cover;
-        max-height: initial;
+        max-height: 850;
+        width: 450px;
         position: absolute;
         z-index: 3;
-        top: -980px;
-        left: -5rem;
+        top: -100px;
+        left: -10rem;
+    }
+
+    .phone-container {
+        padding-top: 250px;
+        display: flex;
+        flex-direction: column;
     }
 
     .right-a , .left-a {
