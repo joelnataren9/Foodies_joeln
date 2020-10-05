@@ -2,35 +2,6 @@ import React from 'react';
 
 import './styles/Testimonies.scss';
 
-const info = [
-    {
-        title: '"El mejor lugar para degustar en familia y amigos!"',
-        description: 'Es el mejor lugar al que he venido con mi familia, la comida es rica, sirven rápido y te atienden de la mejor manera.',
-        numbers: '1/5'
-    },
-    {
-        title: '"El mejor lugar para degustar en familia y amigos!"',
-        description: 'Es el mejor lugar al que he venido con mi familia, la comida es rica, sirven rápido y te atienden de la mejor manera.',
-        numbers: '2/5'
-    },
-    {
-        title: '"El mejor lugar para degustar en familia y amigos!"',
-        description: 'Es el mejor lugar al que he venido con mi familia, la comida es rica, sirven rápido y te atienden de la mejor manera.',
-        numbers: '3/5'
-    },
-    {
-        title: '"El mejor lugar para degustar en familia y amigos!"',
-        description: 'Es el mejor lugar al que he venido con mi familia, la comida es rica, sirven rápido y te atienden de la mejor manera.',
-        numbers: '4/5'
-    },
-    {
-        title: '"El mejor lugar para degustar en familia y amigos!"',
-        description: 'Es el mejor lugar al que he venido con mi familia, la comida es rica, sirven rápido y te atienden de la mejor manera.',
-        numbers: '5/5'
-    },
-]
-
-
 class Testimonies extends React.Component{
     render() {
         return(
