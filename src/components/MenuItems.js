@@ -1,6 +1,8 @@
 import React from 'react';
 
 import './styles/MenuItems.scss';
+import Swal from 'sweetalert2';
+
 
 class MenuItems extends React.Component {
     state = {
@@ -35,6 +37,28 @@ class MenuItems extends React.Component {
                 error:error,
                 })
             }
+    }
+
+    displayMenuError = () => {
+        return Swal.fire({
+            title: '¡Platillo no encontrado!',
+            text: 'Te invitamos a que verifiques si el nombre esta bien escrito o prueba buscando un nuevo platillo.',
+            imageUrl: 'https://res.cloudinary.com/joeln7/image/upload/v1601911273/Foodies/foodies2/Group_p15ct6.svg',
+            imageWidth: 400,
+            imageHeight: 200,
+            imageAlt: 'Hamburguesa',
+        })
+    }
+
+    showError = (error) => {
+        if(error) {
+            return Swal.fire({
+                icon: 'error',
+                title: 'Oops...',
+                text: `Something went wrong! `,
+                footer: `Error: ${error}`
+            })
+        }
     }
 
     // ${this.activate()}
@@ -79,7 +103,7 @@ class MenuItems extends React.Component {
                             <button className="number isActive">2</button>
                             <button className="number">3</button>
                             <button className="number">4</button>
-                            <button className="next">Siguiente</button>
+                            <button className="next" onClick={() => this.displayMenuError()} >Siguiente</button>
                         </div>
                     </div>
                 </div>
@@ -95,8 +119,10 @@ class MenuItems extends React.Component {
         return (
             <React.Fragment>
                 {this.displayMenuItems(this.state.info)}
+                {this.showError(this.state.error)}
             </React.Fragment>
         );
+
     }
 }
 

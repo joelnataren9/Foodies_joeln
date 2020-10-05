@@ -90,3 +90,75 @@
     font-family: $f-subtitle;
     display: inline-block;
 }
+
+@media screen and (max-width: 992px) {
+    .ketchup {
+        display: none;
+    }
+    .substract-l {
+        position: absolute;
+        top: 0;
+        left: 0;
+        max-width: 316.57px;
+        max-height: 555.29px;
+        z-index: 3;
+    }
+
+    .substract-r {
+        position: absolute;
+        top: 110px;
+        right: 0;
+        z-index: 3;
+    }
+    .Carousel {
+        display: flex;
+        // justify-content: center;
+        margin-left: 30%;
+        align-items: center;
+        height: 600px;
+        z-index: 3 !important;
+    }
+    .title-item {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .title-item {
+        font-size: 20px;
+    }
+    .substract-l {
+        display: none;
+    }
+
+    .substract-r {
+        display: none;
+    }
+    .Carousel {
+        display: flex;
+        // justify-content: center;
+        margin-left: 10%;
+        align-items: center;
+        height: 600px;
+        z-index: 3 !important;
+    }
+    .car-item {
+        width: 1000px;
+    }
+    .title-item {
+        width: 400px;
+    }
+
+    .description-item {
+        width: 400px;
+    }
+
+    .numbers {
+        margin: 0 19px;
+        margin-top: 61px;
+        font-weight: bold;
+        font-size: 20px;
+        font-family: $f-subtitle;
+        display: inline-block;
+    }
+}

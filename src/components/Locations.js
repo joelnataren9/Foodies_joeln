@@ -119,7 +119,7 @@ class Locations extends React.Component {
 
     render() {
         return(
-            <div className="d-sm-flex" id='Locations'>
+            <div className="d-sm-flex convert" id='Locations'>
                 <div className="location">
                     <div className="title t-l">Estamos para ti</div>
                     <div className="d-flex">

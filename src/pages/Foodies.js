@@ -7,9 +7,11 @@ import Testimonies from '../components/Testimonies.js';
 import ContactUs from '../components/ContactUs.js';
 import Footer from '../components/Footer.js';
 
+import './styles/Foodies.scss';
+
 function Foodies() {
     return(
-        <div>
+        <div className='Foodies-container'>
             <Hero />
             <AboutUs />
             <Locations />

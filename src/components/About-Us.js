@@ -4,7 +4,7 @@ import React from 'react';
 import './styles/AboutUs.scss'
 function AboutUs() {
     return(
-        <div className="d-sm-flex mb-5" id='AboutUs'>
+        <div className="convert" id='AboutUs'>
             <div className="figure_img-container">
                 <img src="https://res.cloudinary.com/joeln7/image/upload/v1601680034/Foodies/aGZeHyx-jfo_frso9t.svg" alt="About_us" className="figure_img"/>
                 <div className="image-title">
