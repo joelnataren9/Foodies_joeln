@@ -25,5 +25,3 @@ yarn-error.log*
 #Folders
 src/__MACOSX/**
 img/**
-src/syne-typeface-master/**
-src/Font/**
