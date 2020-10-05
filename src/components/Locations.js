@@ -23,7 +23,6 @@ class Locations extends React.Component {
         try {
             let response = await fetch('https://api.elaniin.dev/api/locations?type=takeaway');
             let data =  await response.json();
-            console.log(data.data)
             this.setState({
                 loading: false,
                 datatake: {
@@ -44,7 +43,6 @@ class Locations extends React.Component {
         try {
             let response = await fetch('https://api.elaniin.dev/api/locations?type=delivery');
             let dat =  await response.json();
-            console.log(dat.data)
             this.setState({
                 loading: false,
                 delivery: {
@@ -136,8 +134,7 @@ class Locations extends React.Component {
                     </div>
                     <div className="search">
                         <span className='ml-4 icon-search mr-4 i-search'></span>
-                    <input className="form-search" type="search" placeholder="Buscar nombre o dirección" aria-label="Search">
-                    </input>
+                    <input className="form-search" type="search" placeholder="Buscar nombre o dirección" aria-label="Search" />
                     </div>
                     {this.state.toGoActivate && this.locations(this.state.datatake)}
                     {this.state.DeliveryActivate && this.locations(this.state.delivery)}
