@@ -2,6 +2,7 @@ import React from 'react';
 
 
 import Categories from './Categories';
+import MenuItems from './MenuItems';
 import './styles/MenuList.scss';
 
 const MenuList = () => {
@@ -17,6 +18,7 @@ const MenuList = () => {
                     <Categories />
                 </div>
             </div>
+            <MenuItems />
         </div>
     );
 }

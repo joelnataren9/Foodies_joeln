@@ -1,0 +1,77 @@
+@import 'NavBar.scss';
+
+.title-menu {
+    font-family: $f-subtitle;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.menu-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 60px;
+    flex-wrap: wrap;
+}
+
+.menu-item {
+    padding: 12px 20px !important;
+}
+
+.category {
+    font-family: $text;
+    color: #78909C;
+    font-size: 18px;
+    font-weight: normal;
+    width: fit-content;
+}
+
+.yellowed {
+    background-color: #FFD600;
+    width: fit-content;
+    padding: 6px 10px;
+    font-family: $f-title;
+    font-weight: bold;
+    font-size: 16px;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-right: 0 !important;
+}
+
+.menu-numbers {
+    display: flex;
+    justify-content: center;
+    width: 402px;
+    padding: 10px;
+}
+
+.number {
+    width: 48px;
+    height: 48px;
+    margin-right: 10px;
+    background-color: transparent;
+    color: black;
+    font-size: 20px;
+    font-family: $text;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+
+.isActive {
+    background-color: black;
+    color: #FFD600;
+}
+
+.next {
+    padding: 10px 30px;
+    background-color: #FFF1BF;
+    font-family: $text;
+    font-weight: 600;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+}
