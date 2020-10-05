@@ -1,2 +1,45 @@
 @import 'NavBar.scss';
 
+.footer {
+    width: 80%;
+    margin: 10px auto;
+    color: #69707A;
+    position: relative;
+    overflow: hidden;
+}
+
+.foodies-img {
+    padding-top: 25px;
+}
+
+.play-appstore {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: inline-block;
+}
+
+.appstore {
+    margin-right: 10px;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    margin: 30px auto;
+    border: 1px solid #FFC700;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+}
+
+.footer_last {
+    margin-right: 44px;
+    border: none;
+    background-color: transparent;
+    font-family: "Roboto", sans-serif;
+    color: $text-opacity;
+    font-size: 16px;
+}

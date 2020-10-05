@@ -26,6 +26,17 @@
     right: 0;
 }
 
+.lines {
+    background-color: black !important;
+}
+
+.arrow {
+    margin: 0 5px !important;
+    z-index: 10 !important;
+    color: black;
+    border: 0;
+}
+
 .Carousel {
     display: flex;
     // justify-content: center;
@@ -39,7 +50,7 @@
 }
 
 .car-item {
-    max-width: 800px;
+    width: 800px;
     // margin-top: 16rem;
     border: 1px solid white;
     text-align: center;
@@ -47,6 +58,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-color: white;
 }
 
 .isActive {

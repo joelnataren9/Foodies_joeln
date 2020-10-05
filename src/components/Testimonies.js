@@ -32,73 +32,99 @@ const info = [
 
 
 class Testimonies extends React.Component{
-    state = {
-        currentSlide: 0,
-        data: info,
-    }
-
-    // actions = () => {
-    //     const toggleNext = () => {
-    //         console.log("something worked");
-    //         var current = this.state.currentSlide;
-    //         var next = current + 1;
-    //         if (next > state.data.length - 1) {
-    //         next = 0;
-    //         }
-    //         state.currentSlide = next;
-    //         render(state)
-    //     },
-    //     togglePrev: function() {
-    //         console.log("something worked");
-    //         var current = state.currentSlide;
-    //         var prev = current - 1;
-    //         if (prev < 0) {
-    //         prev = state.data.length - 1;
-    //         }
-    //         state.currentSlide = prev;
-    //         render(state);
-    //     },
-    //     toggleSlide: function(id) {
-    //         console.log("something worked");
-    //     var index = state.data.map(function (el) {
-    //         return (
-    //             el.id
-    //         );
-    //     });
-    //     var currentIndex = index.indexOf(id);
-    //     state.currentSlide = currentIndex;
-    //     render(state);
-    //     }
-    // }
-
-    // togglePrev= () => {
-    //     actions.togglePrev();
-    // }
-    // toggleNext= () => {
-    //     actions.toggleNext();
-    // }
-
     render() {
         return(
             <div className="testimonies">
                 <div className="Carousel">
-                        {/* {this.state.data.map( (data, index) => { */}
-                            {/* let isActive = this.state.currentSlide === index; */}
-                        {this.state.data.map( (data) => {
-                            return(
-                                <div className='car-item'>
-                                    <div className="title-item"> {data.title} </div>
-                                    <div className="description-item">
-                                        {data.description}
-                                    </div>
-                                    <div>
-                                        <span className="icon-arrow-left2" onClick={this.previousSlide}></span>
-                                        <div className="numbers">{data.numbers}</div>
-                                        <span className="icon-arrow-right" onClick={this.nextSlide}></span>
-                                    </div>
+                    <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
+                        <div className="carousel-inner">
+                            <div className="carousel-item active">
+                                <div className='car-item d-block w-50'>
+                                        <div className="title-item"> El mejor lugar para degustar en familia y amigos! </div>
+                                        <div className="description-item">
+                                        Es el mejor lugar al que he venido con mi familia, la comida es rica, sirven rápido y te atienden de la mejor manera.
+                                        </div>
+                                        <div>
+                                            <a className="arrow" href="#carouselExampleIndicators" role="button" data-slide="prev" aria-hidden="true">
+                                            <span className="icon-arrow-left2 " aria-hidden="true"></span>
+                                            </a>
+                                            <div className="numbers">1/5</div>
+                                            <a className="arrow" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                                <span className="icon-arrow-right"></span>
+                                            </a>
+                                        </div>
                                 </div>
-                            );
-                        })}
+                            </div>
+                            <div className="carousel-item">
+                                <div className='car-item d-block w-50'>
+                                            <div className="title-item"> El mejor lugar para degustar en familia y amigos! </div>
+                                            <div className="description-item">
+                                            Es el mejor lugar al que he venido con mi familia, la comida es rica, sirven rápido y te atienden de la mejor manera.
+                                            </div>
+                                            <div>
+                                                <a className="arrow" href="#carouselExampleIndicators" role="button" data-slide="prev" aria-hidden="true">
+                                                <span className="icon-arrow-left2 " aria-hidden="true"></span>
+                                                </a>
+                                                <div className="numbers">2/5</div>
+                                                <a className="arrow" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                                    <span className="icon-arrow-right"></span>
+                                                </a>
+                                            </div>
+                                </div>
+                            </div>
+                            <div className="carousel-item">
+                                <div className='car-item d-block w-50'>
+                                            <div className="title-item"> El mejor lugar para degustar en familia y amigos! </div>
+                                            <div className="description-item">
+                                            Es el mejor lugar al que he venido con mi familia, la comida es rica, sirven rápido y te atienden de la mejor manera.
+                                            </div>
+                                            <div>
+                                                <a className="arrow" href="#carouselExampleIndicators" role="button" data-slide="prev" aria-hidden="true">
+                                                    <span className="icon-arrow-left2 " aria-hidden="true"></span>
+                                                </a>
+                                                <div className="numbers">3/5</div>
+                                                <a className="arrow" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                                    <span className="icon-arrow-right"></span>
+                                                </a>
+                                            </div>
+                                </div>
+                            </div>
+                            <div className="carousel-item">
+                                <div className='car-item d-block w-50'>
+                                            <div className="title-item"> El mejor lugar para degustar en familia y amigos! </div>
+                                            <div className="description-item">
+                                            Es el mejor lugar al que he venido con mi familia, la comida es rica, sirven rápido y te atienden de la mejor manera.
+                                            </div>
+                                            <div>
+                                                <a className="arrow" href="#carouselExampleIndicators" role="button" data-slide="prev" aria-hidden="true">
+                                                    <span className="icon-arrow-left2 " aria-hidden="true"></span>
+                                                </a>
+                                                <div className="numbers">4/5</div>
+                                                <a className="arrow" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                                    <span className="icon-arrow-right"></span>
+                                                </a>
+                                            </div>
+                                </div>
+                            </div>
+                            <div className="carousel-item">
+                                <div className='car-item d-block w-50'>
+                                            <div className="title-item"> El mejor lugar para degustar en familia y amigos! </div>
+                                            <div className="description-item">
+                                            Es el mejor lugar al que he venido con mi familia, la comida es rica, sirven rápido y te atienden de la mejor manera.
+                                            </div>
+                                            <div>
+                                                <a className="arrow" href="#carouselExampleIndicators" role="button" data-slide="prev" aria-hidden="true">
+                                                    <span className="icon-arrow-left2 " aria-hidden="true"></span>
+                                                </a>
+                                                <div className="numbers">5/5</div>
+                                                <a className="arrow" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                                    <span className="icon-arrow-right"></span>
+                                                </a>
+                                            </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div className="">
                     <img src="https://res.cloudinary.com/joeln7/image/upload/v1601749367/Foodies/Subtract_hw6hyd.svg" alt="substract sign left" className="substract-l"/>

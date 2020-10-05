@@ -5,7 +5,7 @@ import './styles/ContactUs.scss';
 function ContactUs () {
     return(
         <React.Fragment>
-            <div className="ContactUs w-full flex flex-wrap justify-center bg-black z-10 pb-64 lg:pb-12">
+            <div className="ContactUs w-full flex flex-wrap justify-center bg-black z-10 pb-64 lg:pb-12" id='Contactenos'>
                 <div className="container">
                     <div className=" contact_title text-4xl lg:text-2xl xl:text-5xl mb-4 mt-20 xl:mt-40 text-center text-white">
                         Cuentanos tu experiencia

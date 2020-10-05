@@ -7,6 +7,10 @@ function AboutUs() {
         <div className="d-sm-flex mb-5" id='AboutUs'>
             <div className="figure_img-container">
                 <img src="https://res.cloudinary.com/joeln7/image/upload/v1601680034/Foodies/aGZeHyx-jfo_frso9t.svg" alt="About_us" className="figure_img"/>
+                <div className="image-title">
+                    LA COMIDAD ES
+                    <span className='add-color'>NUESTRO ARTE</span>
+                </div>
             </div>
             <div className="about_Us">
                 <img src="https://res.cloudinary.com/joeln7/image/upload/v1601682022/Foodies/Vector_3_nrbyhw.svg" alt="rays" className="rays"/>
