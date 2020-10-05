@@ -1,7 +1,7 @@
 @import 'NavBar.scss';
 
 .footer {
-    width: 80%;
+    width: 90%;
     margin: 10px auto;
     color: #69707A;
     position: relative;
@@ -42,4 +42,36 @@
     font-family: "Roboto", sans-serif;
     color: $text-opacity;
     font-size: 16px;
+}
+
+@media screen and (max-width: 900px) {
+    .links {
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .footer_last {
+        margin-bottom: 15px;
+    }
+    .footer {
+        width: 90%;
+        margin: 10px auto;
+        color: #69707A;
+        position: relative;
+        overflow: hidden;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .play-appstore {
+        margin-top: 20px;
+        position: relative;
+        display: block;
+    }
+    .links {
+        display: grid;
+        grid-template-columns: 80%;
+        justify-content: center;
+    }
 }
