@@ -148,7 +148,6 @@
     grid-template: 1000px 200px /40% 60%;
     width: auto;
     flex-wrap: wrap;
-    overflow: hidden;
 }
 
 .tele {
@@ -159,11 +158,8 @@
 
 .phone {
     object-fit: cover;
-    // width: 100%;
     max-height: 1031px;
-    overflow:hidden;
     position: absolute;
-    // left: -50px;
     z-index: 5;
     top: -50px;
     left: -5rem;
@@ -323,6 +319,110 @@
         width: 30%;
         height: 50px;
         margin-left: 45%;
-        margin-bottom: 100px;
+        margin-bottom: 400px;
+    }
+    .app {
+        max-height: fit-content;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%
+    }
+    .tele {
+        position: relative;
+        max-width: 100%;
+        max-height: 1200px;
+    }
+
+    .phone {
+        object-fit: cover;
+        max-height: initial;
+        position: absolute;
+        z-index: 3;
+        top: -780px;
+        left: -5rem;
+    }
+
+    .phone-container {
+        padding-top: 400px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .phone-title {
+        font-family: $f-title;
+        font-size: 35px;
+        font-weight: bold;
+        line-height: 35px;
+        width: 80%;
+        height: 70px;
+        padding-left: 20%;
+        margin-bottom: 40px;
+    }
+
+
+    .promos {
+        margin-bottom: 50px;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+
+    .tele {
+        position: relative;
+        max-width: 100%;
+        max-height: 1200px;
+    }
+
+    .phone {
+        object-fit: cover;
+        max-height: initial;
+        position: absolute;
+        z-index: 3;
+        top: -980px;
+        left: -5rem;
+    }
+
+    .right-a , .left-a {
+        display: none;
+    }
+
+    .unodos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-top: 50px;
+        flex-wrap: wrap;
+        width: 80%;
+    }
+
+    .solicita {
+        max-width: 218px;
+        padding-top: 25px;
+        padding-left: 40px;
+        position: initial;
+        margin: 20px auto;
+    }
+
+    .facil {
+        padding-top: 25px;
+        position: initial;
+        margin: 20px auto;
+        margin-bottom: 20px;
+    }
+
+    .promos {
+        max-width: 218px;
+        width: 218px;
+        margin: 20px auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 2rem;
+        text-align: center;
     }
 }

@@ -34,8 +34,8 @@ function ContactUs () {
                 </div>
                 <div className="phone-container">
                     <div className="phone-title">
-                    Obten más beneficios
-                    <span className="highlighted">Descarga nuestra App</span>
+                        Obten más beneficios
+                        <span className="highlighted">Descarga nuestra App</span>
                     </div>
                     <div className="unodos">
                         <div className="solicita">
