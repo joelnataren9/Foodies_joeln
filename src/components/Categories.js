@@ -37,9 +37,7 @@ class Categories extends React.Component {
             <React.Fragment>
                 {dat.map( (category) => {
                     return (
-                        <div className="search-list" key={category.id}>
-                            <button className="todas">{category.name}</button>
-                        </div>
+                            <button className="todas" key={category.id}> {category.name}</button>
                         );
                 })}
             </React.Fragment>

@@ -125,6 +125,7 @@ $f-title: Druk;
     }
     .menu-bar {
         display: inherit;
+        width: 100%;
     }
     .nav-container {
         width: 80%;
@@ -149,11 +150,14 @@ $f-title: Druk;
         width: 100vw;
         height: 100vh;
         font-size: 25px;
-        background-color: white !important;
+        background-color: rgb(179, 184, 214) !important;
         color: black !important;
         z-index: 10;
     }
     .carousel {
         z-index: 3;
+    }
+    .Foodies {
+        color: black;
     }
 }
