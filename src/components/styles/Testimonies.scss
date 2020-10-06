@@ -139,16 +139,18 @@
         margin-left: 10%;
     }
     .car-item {
-        width: 1000px;
+        width: 300px;
     }
     .title-item {
-        width: 400px;
+        font-size: 30px;
+        width: 250px;
     }
 
     .description-item {
-        width: 400px;
+        width: 250px;
     }
 
+    
     .numbers {
         margin: 0 19px;
         margin-top: 61px;
@@ -156,5 +158,9 @@
         font-size: 20px;
         font-family: $f-subtitle;
         display: inline-block;
+    }
+
+    .cont {
+        width: 300px;
     }
 }

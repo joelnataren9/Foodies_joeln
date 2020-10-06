@@ -15,7 +15,7 @@ class Testimonies extends React.Component{
                                         <div className="description-item">
                                         Es el mejor lugar al que he venido con mi familia, la comida es rica, sirven rápido y te atienden de la mejor manera.
                                         </div>
-                                        <div className='ml4'>
+                                        <div className='ml4 cont'>
                                             <a className="arrow" href="#carouselExampleIndicators" role="button" data-slide="prev" aria-hidden="true">
                                             <span className="icon-arrow-left2 " aria-hidden="true"></span>
                                             </a>
@@ -32,7 +32,7 @@ class Testimonies extends React.Component{
                                             <div className="description-item">
                                             Es el mejor lugar al que he venido con mi familia, la comida es rica, sirven rápido y te atienden de la mejor manera.
                                             </div>
-                                            <div className='ml4'>
+                                            <div className='ml4 cont'>
                                                 <a className="arrow" href="#carouselExampleIndicators" role="button" data-slide="prev" aria-hidden="true">
                                                 <span className="icon-arrow-left2 " aria-hidden="true"></span>
                                                 </a>
@@ -49,7 +49,7 @@ class Testimonies extends React.Component{
                                             <div className="description-item">
                                             Es el mejor lugar al que he venido con mi familia, la comida es rica, sirven rápido y te atienden de la mejor manera.
                                             </div>
-                                            <div className='ml4'>
+                                            <div className='ml4 cont'>
                                                 <a className="arrow" href="#carouselExampleIndicators" role="button" data-slide="prev" aria-hidden="true">
                                                     <span className="icon-arrow-left2 " aria-hidden="true"></span>
                                                 </a>
@@ -66,7 +66,7 @@ class Testimonies extends React.Component{
                                             <div className="description-item">
                                             Es el mejor lugar al que he venido con mi familia, la comida es rica, sirven rápido y te atienden de la mejor manera.
                                             </div>
-                                            <div className='ml4'>
+                                            <div className='ml4 cont'>
                                                 <a className="arrow" href="#carouselExampleIndicators" role="button" data-slide="prev" aria-hidden="true">
                                                     <span className="icon-arrow-left2 " aria-hidden="true"></span>
                                                 </a>
@@ -83,7 +83,7 @@ class Testimonies extends React.Component{
                                             <div className="description-item">
                                             Es el mejor lugar al que he venido con mi familia, la comida es rica, sirven rápido y te atienden de la mejor manera.
                                             </div>
-                                            <div className='ml4'>
+                                            <div className='ml4 cont'>
                                                 <a className="arrow" href="#carouselExampleIndicators" role="button" data-slide="prev" aria-hidden="true">
                                                     <span className="icon-arrow-left2 " aria-hidden="true"></span>
                                                 </a>
